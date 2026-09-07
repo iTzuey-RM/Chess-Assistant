@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { Chess, type Square } from 'chess.js';
 import { Chessboard, type PieceDropHandlerArgs } from 'react-chessboard';
 import { RotateCcw, Play, RefreshCw, Download, Bot } from 'lucide-react';
